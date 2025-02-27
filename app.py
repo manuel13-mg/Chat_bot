@@ -177,7 +177,7 @@ def sidebar():
 
 # --- Initialize Groq Client ---
 try:
-    groq_api_key = "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"  # Use the provided API key
+    groq_api_key = "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"  # Use the provided API key
     client = groq.Client(api_key=groq_api_key)
     model_available = True
 except Exception as e:
