@@ -10,7 +10,7 @@ import os
 # --- Configuration ---
 st.set_page_config(
     page_title="TranquilTalk",
-    page_icon="C:/Users/manua/projects/ChatBot/bg1.jpg",  # Local file path for the icon
+    page_icon="bg1.jpg",  # Local file path for the icon
     layout="centered",
     initial_sidebar_state="collapsed",
 )
@@ -27,10 +27,10 @@ def load_image(filepath):
         return None
 
 # --- Load Images (Ensure correct file paths!) ---
-bot_image_path = "C:/Users/manua/projects/ChatBot/img.jpg"  # Local file path for bot message bg
-background_path = "C:/Users/manua/projects/ChatBot/bg1.jpg"  # Local file path for the main background
-icon_path = "C:/Users/manua/projects/ChatBot/bg1.jpg"       # Local file path for the icon
-header_image_path = "C:/Users/manua/projects/ChatBot/img2.png"
+bot_image_path = "img.jpg"  # Local file path for bot message bg
+background_path = "bg1.jpg"  # Local file path for the main background
+icon_path = "bg1.jpg"       # Local file path for the icon
+header_image_path = "img2.png"
 
 # --- Display Header Image ---
 st.image(header_image_path, use_container_width=True)
