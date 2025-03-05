@@ -27,7 +27,7 @@ def load_image(filepath):
         return None
 
 # --- Load Images (Ensure correct file paths!) ---
-bot_image_path = "img2.jpg"  # Local file path for bot message bg
+bot_image_path = "img2.png"  # Local file path for bot message bg
 background_path = "bg1.jpg"  # Local file path for the main background
 icon_path = "bg1.jpg"       # Local file path for the icon
 header_image_path = "img2.png"
