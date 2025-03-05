@@ -3,3 +3,4 @@ groq
 transformers
 beautifulsoup4
 tensorflow
+tf-keras
