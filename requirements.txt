@@ -1,3 +1,4 @@
-groq
 streamlit
-
+groq
+transformers
+beautifulsoup4
