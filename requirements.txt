@@ -2,3 +2,4 @@ streamlit
 groq
 transformers
 beautifulsoup4
+tensorflow
